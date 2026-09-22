@@ -10,8 +10,8 @@ run.txt
 ## Install
 
 ```bash
-git clone https://github.com/<you>/<repo>.git
-cd <repo>
+git clone https://github.com/aba124/g25-conversion-system.git
+cd g25-conversion-system
 py -m pip install -r requirements.txt
 py selftest.py
 ```
