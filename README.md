@@ -43,6 +43,13 @@ Check the accuracy yourself:
 py validate.py --model models/ho25 --chip yourfile.txt
 ```
 
+Drop any number of raw files into `samples/` and convert them all at once into
+one datasheet. The folder is gitignored so nothing personal gets committed:
+
+```bash
+py batch.py --dir samples --model models/ho25
+```
+
 ## Privacy
 
 Raw data and coordinates are personal info. Ignore excludes vendor filenames, g25, .txt data/ and models/, however look at status before commit and ensure no file is already staged

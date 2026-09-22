@@ -6,6 +6,7 @@ Run with py on Windows or python3 on Linux and macOS
   py build_model.py --panel data/aadr/v66_HO --out models/ho25
   py convert.py yourfile.txt --model models/ho25 --name Sample
   py validate.py --model models/ho25 --chip yourfile.txt
+  py batch.py --dir samples --model models/ho25
   py align_to_g25.py --model models/ho25 --g25-dir /path/to/g25-datasheets
   py convert.py yourfile.txt --model models/ho25 --g25-space
 

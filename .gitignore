@@ -23,3 +23,7 @@ dna*.csv
 
 # published G25 datasheets, not ours to redistribute
 Global25_*.txt
+
+# test files you drop in, folder kept but contents ignored
+samples/*
+!samples/README.md
