@@ -1,0 +1,13 @@
+Run with py on Windows or python3 on Linux and macOS
+
+  py -m pip install -r requirements.txt
+  py selftest.py
+  py fetch_reference.py --out data/aadr
+  py build_model.py --panel data/aadr/v66_HO --out models/ho25
+  py convert.py yourfile.txt --model models/ho25 --name Sample
+  py validate.py --model models/ho25 --chip yourfile.txt
+  py align_to_g25.py --model models/ho25 --g25-dir /path/to/g25-datasheets
+  py convert.py yourfile.txt --model models/ho25 --g25-space
+
+If py is missing use the interpreter path directly
+  <python-path>/python.exe convert.py ...

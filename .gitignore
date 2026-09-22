@@ -1,0 +1,25 @@
+__pycache__/
+*.pyc
+
+# reference panel, 4 GB, fetch it with fetch_reference.py
+data/
+
+# built models and datasheets, rebuild with build_model.py
+models/
+
+# personal raw data, never commit
+AncestryDNA*.txt
+genome*.txt
+*_raw_data*.txt
+MyHeritage*.csv
+dna*.csv
+*.23andme.txt
+*.vcf
+*.vcf.gz
+
+# converted coordinates
+*.g25.scaled.txt
+*.g25.unscaled.txt
+
+# published G25 datasheets, not ours to redistribute
+Global25_*.txt
