@@ -25,7 +25,9 @@ py fetch_reference.py --out data/aadr
 py build_model.py --panel data/aadr/v66_HO --out models/ho25
 ```
 
-
+About 4 GB to download and 25 minutes to build. If the download fails the
+script prints which four files to grab by hand from the same DOI and what to
+rename them to.
 
 ## Use
 
